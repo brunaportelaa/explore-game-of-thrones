@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Titillium+Web:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topo {
+    background-image: url(../images/home/BG-Home-Topo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    color: rgb(200, 231, 231);
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.got-logo {
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+.spoiler-alert {
+    display: flex;
+    border: 1px solid rgb(200,231,231);
+    border-radius: 20px;
+    width: 400px;
+    align-items: center;
+    padding: 0 10px;
+    margin-top: 20px;
+}
+
+.spoiler-alert img {
+    width:35px;
+    margin: 20px;
+}
+
+main {
+    background-image: url(../images/home/BG-Home.png);
+}
+
+.linha-cenas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box {
+    width: 450px;
+    height: 250px;
+    margin: 20px;
+    color: rgb(200, 231, 231);
+    font-family: 'Titillium Web', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p:only-child{
+    font-size: 1.5em;
+    font-family: 'EB Garamond',serif;
+    text-align: center;
+}
+
+.cena-winterfell {
+    background-image: url(../images/home/home-winterfell.png);
+    position:relative;
+    border-radius: 30px;
+}
+
+.cena-winterfell:hover {
+    background-image: url(../images/home/winterfell-gif.gif);
+    transform: scale(1.1);
+    transition: .2s;
+    color: transparent;
+}
+
+
+.cena-winterfell p {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cena-dothraki {
+    background-image: url(../images/home/home-dothraki.png);
+    position:relative;
+    border-radius: 30px;
+}
+
+.cena-dothraki:hover {
+    background-image: url(../images/home/dothraki.gif);
+    transform: scale(1.1);
+    transition: .2s;
+    color: transparent;
+}
+
+
+.cena-dothraki p {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cena-dracarys {
+    background-image: url(../images/home/home-astapor.png);
+    position:relative;
+    border-radius: 30px;
+}
+
+.cena-dracarys:hover {
+    background-image: url(../images/home/dracarys.gif);
+    transform: scale(1.1);
+    transition: .2s;
+    color: transparent;
+}
+
+.cena-dracarys p {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cena-beyond {
+    background-image: url(../images/home/home-beyondthewall.png);
+    position:relative;
+    border-radius: 30px;
+}
+
+.cena-beyond p {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cena-beyond:hover {
+    background-image: url(../images/home/beyond.gif);
+    transform: scale(1.1);
+    transition: .2s;
+    color: transparent;
+}
